@@ -1,0 +1,175 @@
+
+
+
+@font-face {
+    font-family: 'youngSRegular';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'OBlack';
+    src: url('./assets/fonts/outfit/static/Outfit-Black.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'OBold';
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'OextraBold';
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraBold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'OextraLight';
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraLight.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Olight';
+    src: url('./assets/fonts/outfit/static/Outfit-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Omedium';
+    src: url('./assets/fonts/outfit/static/Outfit-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Oregular';
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'OsemiBold';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Othin';
+    src: url('./assets/fonts/outfit/static/Outfit-Thin.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Owght';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format(truetype);
+}
+
+
+
+
+body {
+    background-color: #f3e5d8;
+}
+
+.container {
+    border: 1px;
+    padding: 30px;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* text-align: center; */
+    margin-top: 10vh;
+    /* transform: translateY(-50%); */
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.container h1 {
+    /* padding-left: ; */
+    font-family: 'YoungSRegular', sans-serif;
+    font-size: 48px;
+}
+
+#paraph1 {
+    color: #aba2a4;
+    font-size: 16px;
+}
+
+.containerRouge {
+    /* padding: 5px; */
+    background-color: #fff7fc;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    /* text-align: left; */
+}
+
+#prepTime {
+    color: hsl(332, 51%, 32%);
+    font-family: 'OsemiBold', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+
+.list1 {
+    list-style: none;
+    padding-right: 20px;
+    text-indent: 15px;
+    line-height: 2;
+    font-family: 'Oregular', sans-serif;
+    font-size: 17px;
+    /* color: #696967; */
+    color: grey;
+    
+}
+
+.list1 li {
+    position: relative; /* Position relative pour les pseudo-éléments */
+    color: gray; /* Couleur du texte en gris */
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.list1 li::before {
+    content: '•';
+    color: purple;
+    position: absolute;
+    font-size: 28px;
+    margin-top: -10px;
+    left: -15px;
+    text-indent: -10px;
+}
+
+
+.list2 {
+    margin-left: -20px;
+    text-indent: 15px;
+    line-height: 2;
+    font-family: 'Oregular', sans-serif;
+    font-size: 17px;
+    color: #696967;
+
+    /* content:'•';
+    color: purple; */
+}
+
+
+.gras {
+    font-family: 'Obold', sans-serif;
+}
+
+
+.container h2 {
+    font-family: 'youngSRegular', sans-serif;
+    color: #884f3d;
+}
+
+hr {
+    border-width: 0.5px;
+    border-color: rgb(201, 201, 201);
+    margin: 30px auto;
+}
